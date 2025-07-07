@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Quote Generator</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="top-bar">
+    <button id="toggle-mode" title="Toggle Dark/Light Mode"><i class="fas fa-adjust"></i></button>
+  </div>
+
+  <div class="quote-card">
+    <p id="quote">Loading quote...</p>
+    <h3 id="author">Author</h3>
+    <div class="buttons">
+      <button id="new-quote"><i class="fas fa-sync-alt"></i> New Quote</button>
+      <button id="save-fav"><i class="fas fa-star"></i> Save</button>
+      <a id="tweet-quote" href="#" target="_blank"><i class="fab fa-twitter"></i> Tweet</a>
+    </div>
+  </div>
+
+  <div class="favorites">
+    <h4>⭐ Favorite Quotes</h4>
+    <ul id="fav-list"></ul>
+  </div>
+
+  <footer>
+    Made with ❤️ by Rajdeep Choudhury
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
